@@ -53,7 +53,6 @@ const imgItem = document.body.querySelectorAll('.nav__column-img');
 for (let i = 0; i < imgItem.length; i++) {
     const width = getComputedStyle(imgItem[i]);
     imgItem[i].style.cssText = `height: ${width.width}`;
-    console.log(width.width);
 }
 
 
